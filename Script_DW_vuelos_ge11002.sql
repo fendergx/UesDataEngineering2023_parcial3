@@ -6,10 +6,9 @@
 --dimension de aerolinea
 CREATE TABLE dimaerolinea(
     	airlineKey int PRIMARY KEY,
-    	airlineId int distkey,    --id de aerolinea segun (DOT) Departamento de Transporte de los Estados Unidos
         airlineCode Varchar (10), --codigo de aerolinea
     	Description Varchar (100)
-)sortKey(airlineKey, airlineId,airlineCode);
+)sortKey(airlineKey,airlineCode);
 
 --dimension de fecha
 CREATE TABLE dimfecha(
@@ -24,7 +23,7 @@ CREATE TABLE dimfecha(
     numSemanaEnAnio int,
     trimestre int,
     nombreTrimestre varchar(25),
-    diaLaboral int, --lunes a viernes, 0 no, 1 sis
+    diaLaboral varchar(3), --lunes a viernes, 0 no, 1 sis
     anio int
 )sortKey(fechakey, nombreMes, anio);
 
