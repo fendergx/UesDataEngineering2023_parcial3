@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="(row1.DepDelayMinutes == null) ? &quot;no&quot;:&quot;si&quot;">
+  <variables name="row1.FlightDate" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DOT_ID_Marketing_Airline" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Operating_Airline" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Flight_Number_Operating_Airline" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.OriginAirportID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Origin" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.OriginCityName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.OriginState" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.OriginStateName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.OriginWac" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.DestAirportID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Dest" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DestCityName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DestState" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DestStateName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DestWac" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.CRSDepTime" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.DepTime" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.DepDelayMinutes" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.DepDel15" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.WheelsOff" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.WheelsOn" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.CRSArrTime" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.ArrTime" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.ArrDelayMinutes" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.ArrDel15" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Cancelled" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.CancellationCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Diverted" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.CRSElapsedTime" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.ActualElapsedTime" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.AirTime" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Distance" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.CarrierDelay" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.WeatherDelay" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.NASDelay" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.SecurityDelay" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.LateAircraftDelay" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DivAirportLandings" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.DivReachedDest" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DivActualElapsedTime" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DivArrDelay" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.DivDistance" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Div1Airport" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Div1AirportID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.airlineKey" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.airlineID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.fechaKey" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.fullDate" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.nombreDia" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.diaDeSemana" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.numDiaEnMes" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.mes" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.nombreMes" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.numSemanaEnMes" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.numSemanaEnAnio" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.trimestre" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.nombreTrimestre" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.diaLaboral" value="null" talendType="id_Character" nullable="true"/>
+  <variables name="row3.anio" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.DepDelayMinutes >0 ? &quot;si&quot;:&quot;no&quot;" value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == 0 || row1.DepDelayMinutes==null) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == 0 || row1.DepDelayMinutes =='null') ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == 0 || row1.DepDelayMinutes ==&quot;null&quot;) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == &quot;0&quot; || row1.DepDelayMinutes == null  || row1.DepDelayMinutes ==&quot;null&quot;) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == &quot;0&quot;||row1.DepDelayMinutes == &quot;&quot; || row1.DepDelayMinutes == null  || row1.DepDelayMinutes ==&quot;null&quot;) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == 0||row1.DepDelayMinutes == null) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == 0||Relational.isNull(row1.DepDelayMinutes)) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="row2.errorCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.errorMessage" value="null" talendType="id_String" nullable="true"/>
+  <variables name="(row1.DepDelayMinutes == 0 || row1.DepDelayMinutes ==null) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == 0 || row1.DepDelayMinutes == null) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+  <variables name="(row1.DepDelayMinutes == 0 || row1.DepDelayMinutes == null || isNull(row1.DepDelayMinutes)) ? &quot;no&quot;:&quot;si&quot; " value="null" talendType="id_String"/>
+</expression:EMFExpression>

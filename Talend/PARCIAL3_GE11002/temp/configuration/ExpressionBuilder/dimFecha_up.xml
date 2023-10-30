@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="TalendDate.formatDate(&quot;dd/MM/yyyy&quot;,row1.full_date)">
+  <variables name="row1.date_key" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.full_date" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.day_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.day_of_week" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.day_num_in_month" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.month" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.month_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.week_num_in_month" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.week_num_in_year" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.quarter" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.quarter_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.weekday_flag" value="null" talendType="id_Character" nullable="true"/>
+  <variables name="row1.year" value="null" talendType="id_Integer" nullable="true"/>
+</expression:EMFExpression>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_8bAssHa_Ee6VMctINou_IQ" name="airlines_stagging" dataPackage="_8bAssXa_Ee6VMctINou_IQ" Server="Localhost 127.0.0.1" FilePath="C:/Parcial3/Processing/airlines.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_8bAssXa_Ee6VMctINou_IQ" name="default" dataManager="_8bAssHa_Ee6VMctINou_IQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_8bAssna_Ee6VMctINou_IQ" id="_4Mzm4Ha_Ee6VMctINou_IQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8bAss3a_Ee6VMctINou_IQ" label="Code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8bAstHa_Ee6VMctINou_IQ" label="Description" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
