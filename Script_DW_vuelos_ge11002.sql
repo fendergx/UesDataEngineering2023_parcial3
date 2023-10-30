@@ -51,20 +51,20 @@ CREATE TABLE factvuelo(
     wheelsOn int,
     crsArrTime int,
     arrTime int,
-    canceled varchar(3), --cancelado
-    diverted varchar(3), --desviado
+    canceled int, --cancelado
+    diverted int, --desviado
     crsElapsedTime int,
     actualElapsedTime int,
     airtime int, --tiempo en el aire
     carrierDelay int, --retraso del transportista
-    weatherDelay int, --retraso de clima
-    nasDelay int, --National Air System Delay
-    securityDelay int, --retraso de seguridad
-    lateAircraftDelay int, --Retraso tardío de la aeronave
+    weatherDelay varchar(10), --retraso de clima
+    nasDelay varchar(10), --National Air System Delay
+    securityDelay varchar(10), --retraso de seguridad
+    lateAircraftDelay varchar(10), --Retraso tardío de la aeronave
     divAirportLandings int, --numero de aterrizajes en aeropuertos dif
-    divReachedDest int, --vuelo desv llego a destino
-    divActualElapsedTime int,
-    divArrDelay int,
+    divReachedDest varchar(10), --vuelo desv llego a destino
+    divActualElapsedTime varchar(10),
+    divArrDelay varchar(10),
 	FOREIGN KEY(airlineKey) REFERENCES dimaerolinea(airlineKey),
 	FOREIGN KEY(fechaKey) REFERENCES dimfecha(fechaKey)
 )sortKey(airlineKey, fechaKey);
